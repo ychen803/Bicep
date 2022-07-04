@@ -1,0 +1,17 @@
+[
+  {
+    "Data": "[{\"FilterType\":\"Most checked out\",\"__PowerAppsId__\":\"lFiwtF5Klu8\"},{\"FilterType\":\"Reviews\",\"__PowerAppsId__\":\"kL-3dRj9Srg\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Filterby",
+    "OrderedColumnNames": [
+      "FilterType",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "Filterby",
+    "OriginalSchema": "*[FilterType:s, __PowerAppsId__:s]",
+    "Schema": "*[FilterType:s, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
