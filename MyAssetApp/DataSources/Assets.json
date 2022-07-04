@@ -1,0 +1,22 @@
+[
+  {
+    "Data": "[{\"AssetId\":1,\"ProductId\":\"P01\",\"ReservedByEmail\":\"mailto:DeborahS@contoso.com\",\"ReservedByEmail@display\":\"DeborahS@contoso.com\",\"ReservedByName\":\"Deborah Schultz\",\"ReservedUntil\":1484438400000,\"__PowerAppsId__\":\"oxnn5uQxN6Y\"},{\"AssetId\":2,\"ProductId\":\"P01\",\"ReservedByEmail\":\"mailto:TonyG@contoso.com\",\"ReservedByEmail@display\":\"TonyG@contoso.com\",\"ReservedByName\":\"Anthony Glaze\",\"ReservedUntil\":1513987200000,\"__PowerAppsId__\":\"epeSKSL1r0g\"},{\"AssetId\":3,\"ProductId\":\"P02\",\"ReservedByEmail\":\"mailto:LuisaC@contoso.com\",\"ReservedByEmail@display\":\"LuisaC@contoso.com\",\"ReservedByName\":\"Luisa Cummings\",\"ReservedUntil\":1513296000000,\"__PowerAppsId__\":\"UkhSGAqu6io\"},{\"AssetId\":4,\"ProductId\":\"P02\",\"ReservedByEmail\":\"mailto:GracielaE@contoso.com\",\"ReservedByEmail@display\":\"GracielaE@contoso.com\",\"ReservedByName\":\"Graciela Esteban\",\"ReservedUntil\":1512000000000,\"__PowerAppsId__\":\"gm0ghppi-eY\"},{\"AssetId\":5,\"ProductId\":\"P06\",\"ReservedByEmail\":\"mailto:LilaC@contoso.com\",\"ReservedByEmail@display\":\"LilaC@contoso.com\",\"ReservedByName\":\" Lila Clay\",\"ReservedUntil\":1511395200000,\"__PowerAppsId__\":\"yPCQiWF88Cw\"},{\"AssetId\":6,\"ProductId\":\"P06\",\"ReservedByEmail\":\"mailto:WardK@contoso.com\",\"ReservedByEmail@display\":\"WardK@contoso.com\",\"ReservedByName\":\"Ward Ketchum\",\"ReservedUntil\":1513555200000,\"__PowerAppsId__\":\"bQ1um3VylUk\"},{\"AssetId\":7,\"ProductId\":\"P09\",\"ReservedByEmail\":\"mailto:MariaP@contoso.com\",\"ReservedByEmail@display\":\"MariaP@contoso.com\",\"ReservedByName\":\"Maria Popovych\",\"ReservedUntil\":1483574400000,\"__PowerAppsId__\":\"Zse_TaHpsR8\"},{\"AssetId\":8,\"ProductId\":\"P09\",\"ReservedByEmail\":\"mailto:AmmarP@contoso.com\",\"ReservedByEmail@display\":\"AmmarP@contoso.com\",\"ReservedByName\":\"Ammar Peterson\",\"ReservedUntil\":1513728000000,\"__PowerAppsId__\":\"IF5_8a5JbDI\"},{\"AssetId\":9,\"ProductId\":\"P12\",\"ReservedByEmail\":\"mailto:RubenK@contoso.com\",\"ReservedByEmail@display\":\"RubenK@contoso.com\",\"ReservedByName\":\"Ruben Kokshoorn\",\"ReservedUntil\":1483920000000,\"__PowerAppsId__\":\"qOmhurTzF4g\"},{\"AssetId\":10,\"ProductId\":\"P12\",\"ReservedByEmail\":\"mailto:CarlieB@contoso.com\",\"ReservedByEmail@display\":\"CarlieB@contoso.com\",\"ReservedByName\":\"Carlene Blankenship\",\"ReservedUntil\":1513900800000,\"__PowerAppsId__\":\"1OSA1pzmN7A\"},{\"AssetId\":11,\"ProductId\":\"P13\",\"ReservedByEmail\":\"mailto:Betsy@contoso.com\",\"ReservedByEmail@display\":\"Betsy@contoso.com\",\"ReservedByName\":\"Betsy McCarthy\",\"ReservedUntil\":1483833600000,\"__PowerAppsId__\":\"BUAlwZ4t6AU\"},{\"AssetId\":12,\"ProductId\":\"P13\",\"ReservedByEmail\":\"mailto:TonyP@contoso.com\",\"ReservedByEmail@display\":\"TonyP@contoso.com\",\"ReservedByName\":\"Antonio Pinto\",\"ReservedUntil\":1513296000000,\"__PowerAppsId__\":\"d2piwzRyh4Q\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Assets",
+    "OrderedColumnNames": [
+      "AssetId",
+      "ProductId",
+      "ReservedByName",
+      "ReservedByEmail",
+      "ReservedByEmail@display",
+      "ReservedUntil",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "Assets",
+    "OriginalSchema": "*[AssetId:n, ProductId:s, ReservedByEmail:h, 'ReservedByEmail@display':s, ReservedByName:s, ReservedUntil:d, __PowerAppsId__:s]",
+    "Schema": "*[AssetId:n, ProductId:s, ReservedByEmail:h, 'ReservedByEmail@display':s, ReservedByName:s, ReservedUntil:d, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

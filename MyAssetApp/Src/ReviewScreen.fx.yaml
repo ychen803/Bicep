@@ -1,0 +1,228 @@
+ReviewScreen As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    Orientation: =If(ReviewScreen.Width < ReviewScreen.Height, Layout.Vertical, Layout.Horizontal)
+    Size: =1 + CountRows(App.SizeBreakpoints) - CountIf(App.SizeBreakpoints, Value >= ReviewScreen.Width)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 0, 255, 1)
+        DisabledFill: =Rectangle2.Fill
+        Fill: =RGBA(255,136,0,1)
+        FocusedBorderColor: =Rectangle2.BorderColor
+        Height: =44
+        HoverFill: =Rectangle2.Fill
+        PressedFill: =Rectangle2.Fill
+        TabIndex: =0
+        Width: =1024
+        ZIndex: =1
+
+    TextBox5 As label:
+        Align: =Center
+        FocusedBorderColor: =TextBox5.BorderColor
+        Font: =Font.Lato
+        Height: =44
+        HoverBorderColor: =TextBox5.BorderColor
+        HoverColor: =TextBox5.Color
+        HoverFill: =TextBox5.Fill
+        PressedBorderColor: =TextBox5.BorderColor
+        PressedColor: =TextBox5.Color
+        PressedFill: =TextBox5.Fill
+        Text: ="Reviews"
+        VerticalAlign: =Middle
+        Width: =1024
+        ZIndex: =2
+
+    GalleryFilter As gallery.galleryVertical:
+        DisabledBorderColor: =GalleryFilter.BorderColor
+        DisabledFill: =GalleryFilter.Fill
+        Height: =724
+        HoverBorderColor: =GalleryFilter.BorderColor
+        HoverFill: =GalleryFilter.Fill
+        Items: =Filter(Reviews,ProductId=ProductsGallery.Selected.ProductId)
+        Layout: =Layout.Vertical
+        PressedBorderColor: =GalleryFilter.BorderColor
+        PressedFill: =GalleryFilter.Fill
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =123.79577297749245
+        Width: =1024
+        Y: =44
+        ZIndex: =3
+
+        Rectangle5 As rectangle:
+            BorderColor: =RGBA(0, 0, 255, 1)
+            DisabledFill: =Rectangle5.Fill
+            Fill: =RGBA(237,237,237,1)
+            FocusedBorderColor: =Rectangle5.BorderColor
+            Height: =2
+            HoverFill: =Rectangle5.Fill
+            PressedFill: =Rectangle5.Fill
+            TabIndex: =0
+            Width: =1024
+            Y: =121.76073685383827
+            ZIndex: =1
+
+        Group5 As group:
+            Height: =123.795772977492
+            Width: =1024
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+            Rectangle3 As rectangle:
+                BorderColor: =RGBA(0, 0, 255, 1)
+                DisabledFill: =Rectangle3.Fill
+                Fill: =RGBA(0, 0, 0, 0)
+                FocusedBorderColor: =Rectangle3.BorderColor
+                Height: =123.795772977492
+                HoverFill: =Rectangle3.Fill
+                OnSelect: =Navigate(ReviewDetailsScreen,ScreenTransition.Fade)
+                PressedFill: =Rectangle3.Fill
+                TabIndex: =0
+                Width: =1024
+                ZIndex: =3
+
+            Image1 As image:
+                ApplyEXIFOrientation: =false
+                BorderColor: =RGBA(0, 0, 0, 1)
+                FocusedBorderColor: =Image1.BorderColor
+                Height: =70
+                HoverBorderColor: =ColorFade(Image1.BorderColor, 20%)
+                HoverFill: =ColorFade(Image1.Fill, 20%)
+                Image: =ThisItem.'Image[image]'
+                OnSelect: =Navigate(ReviewDetailsScreen,ScreenTransition.Fade)
+                PressedBorderColor: =ColorFade(Image1.BorderColor, -20%)
+                PressedFill: =ColorFade(Image1.Fill, -20%)
+                RadiusBottomLeft: =35
+                RadiusBottomRight: =35
+                RadiusTopLeft: =35
+                RadiusTopRight: =35
+                Width: =70
+                X: =19.92968794165863
+                Y: =20.047688214041546
+                ZIndex: =4
+
+            TextBox6 As label:
+                Color: =RGBA(47, 47, 47, 1)
+                FocusedBorderColor: =TextBox6.BorderColor
+                Font: =Font.Lato
+                Height: =32
+                HoverBorderColor: =TextBox6.BorderColor
+                HoverColor: =TextBox6.Color
+                HoverFill: =TextBox6.Fill
+                OnSelect: =Navigate(ReviewDetailsScreen,ScreenTransition.Fade)
+                PaddingLeft: =19
+                PressedBorderColor: =TextBox6.BorderColor
+                PressedColor: =TextBox6.Color
+                PressedFill: =TextBox6.Fill
+                Text: =ThisItem.Names
+                VerticalAlign: =Middle
+                Width: =157
+                Wrap: =false
+                Y: =86.06576346994028
+                ZIndex: =5
+
+            Rating1_2 As rating:
+                AccessibleLabel: =""
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderStyle: =BorderStyle.Solid
+                ContentLanguage: =""
+                Default: =ThisItem.Ratings
+                DisabledFill: =Rating1_2.Fill
+                DisplayMode: =If(true,DisplayMode.View,DisplayMode.Edit)
+                Fill: =RGBA(0, 0, 0, 0)
+                FocusedBorderColor: =Rating1_2.BorderColor
+                FocusedBorderThickness: =2
+                Height: =20
+                HoverFill: =Rating1_2.Fill
+                OnSelect: =Navigate(ReviewDetailsScreen,ScreenTransition.Fade)
+                PressedFill: =Rating1_2.Fill
+                RatingFill: =RGBA(75,75,75,1)
+                ShowValue: =true
+                TabIndex: =0
+                Width: =121
+                X: =109.64633441150118
+                Y: =19.925239234449748
+                ZIndex: =6
+
+            TextBox6_1 As label:
+                Align: =Right
+                FocusedBorderColor: =TextBox6_1.BorderColor
+                Font: =Font.Lato
+                Height: =27
+                HoverBorderColor: =TextBox6_1.BorderColor
+                HoverColor: =TextBox6_1.Color
+                HoverFill: =TextBox6_1.Fill
+                OnSelect: =Navigate(ReviewDetailsScreen,ScreenTransition.Fade)
+                PressedBorderColor: =TextBox6_1.BorderColor
+                PressedColor: =TextBox6_1.Color
+                PressedFill: =TextBox6_1.Fill
+                Size: =13
+                Text: =DateValue(ThisItem.DateCreated)
+                VerticalAlign: =Middle
+                Width: =187
+                X: =822.5487316421887
+                Y: =18.03050239234445
+                ZIndex: =7
+
+            TextBox10 As label:
+                Align: =Left
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(47, 47, 47, 1)
+                FocusedBorderColor: =TextBox10.BorderColor
+                Font: =Font.Lato
+                Height: =47
+                HoverBorderColor: =TextBox10.BorderColor
+                HoverColor: =TextBox10.Color
+                HoverFill: =TextBox10.Fill
+                OnSelect: =Navigate(ReviewDetailsScreen,ScreenTransition.Fade)
+                PaddingLeft: =30
+                PaddingRight: =0
+                PressedBorderColor: =TextBox10.BorderColor
+                PressedColor: =TextBox10.Color
+                PressedFill: =TextBox10.Fill
+                Text: =ThisItem.Comments
+                VerticalAlign: =Top
+                Width: =921.6435320456875
+                X: =82.35646795431248
+                Y: =47.490882784592934
+                ZIndex: =8
+
+    icon1_5 As icon.ChevronLeft:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(56, 56, 56, 1)
+        DisabledFill: =icon1_5.Fill
+        FocusedBorderColor: =icon1_5.BorderColor
+        Height: =24
+        HoverBorderColor: =ColorFade(icon1_5.BorderColor, 20%)
+        HoverColor: =ColorFade(icon1_5.Color, 20%)
+        HoverFill: =icon1_5.Fill
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(HomeScreen,ScreenTransition.Fade)
+        PressedBorderColor: =ColorFade(icon1_5.BorderColor, -20%)
+        PressedColor: =ColorFade(icon1_5.Color, -20%)
+        PressedFill: =icon1_5.Fill
+        TabIndex: =0
+        Width: =24
+        X: =10
+        Y: =10
+        ZIndex: =6
+
+    Button3 As button:
+        BorderColor: =ColorFade(Button3.Fill, -15%)
+        DisabledBorderColor: =ColorFade(Button3.BorderColor, 70%)
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderColor: =Button3.BorderColor
+        Height: =44
+        HoverBorderColor: =ColorFade(Button3.BorderColor, 20%)
+        HoverColor: =Button3.Color
+        HoverFill: =ColorFade(Button3.Fill, 20%)
+        OnSelect: =Navigate(HomeScreen,ScreenTransition.Fade)
+        PressedBorderColor: =Button3.Fill
+        PressedColor: =Button3.Color
+        PressedFill: =Button3.Fill
+        Text: =""
+        Width: =44
+        ZIndex: =7
+
