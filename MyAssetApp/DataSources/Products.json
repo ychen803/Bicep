@@ -1,0 +1,31 @@
+[
+  {
+    "Data": "[{\"Available\":2,\"CategoryId\":\"C1\",\"Color\":\"Black\",\"Comments\":1,\"CountValue\":0,\"ImageId\":79071766,\"Model No\":\"J5D-00018\",\"Price\":350,\"ProductDescription1\":\"Accessories: power cable, monitor adapter\",\"ProductDescription2\":\"12-inch screen Windows 10 notebook with Office 365\",\"ProductId\":\"P01\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/laptop1.jpg\",\"ProductName\":\"Notebook\",\"Ratings\":1,\"WaitUntil\":1464134400000,\"__PowerAppsId__\":\"1SIBtc-Y0JA\"},{\"Available\":2,\"CategoryId\":\"C1\",\"Color\":\"White\",\"Comments\":2,\"CountValue\":0,\"ImageId\":130358696,\"Model No\":\"2341XYXZ\",\"Price\":200,\"ProductDescription1\":\"Accessories: Power cable, monitor adapter, carrying case\",\"ProductDescription2\":\"15-inch screen Windows 10 laptop with Office 365\",\"ProductId\":\"P02\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/laptop2.jpg\",\"ProductName\":\"Laptop\",\"Ratings\":2,\"WaitUntil\":1461628800000,\"__PowerAppsId__\":\"3W9PXe_5tbw\"},{\"Available\":2,\"CategoryId\":\"C2\",\"Color\":\"White\",\"Comments\":3,\"CountValue\":0,\"ImageId\":63180580,\"Model No\":\"2341XYXZ\",\"Price\":300,\"ProductDescription1\":\"Accessories: USB adapter, batteries included\",\"ProductDescription2\":\"Wireless 2-button optical mouse with scroll wheel\",\"ProductId\":\"P06\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/mouse1.jpg\",\"ProductName\":\"Wireless mouse\",\"Ratings\":3,\"WaitUntil\":1481760000000,\"__PowerAppsId__\":\"IQdS-ST30lY\"},{\"Available\":2,\"CategoryId\":\"C2\",\"Color\":\"Black\",\"Comments\":2,\"CountValue\":0,\"ImageId\":87001778,\"Model No\":\"B2M-007\",\"Price\":200,\"ProductDescription1\":\"Accessories: none included\",\"ProductDescription2\":\"Wired 2-button optical mouse with scroll wheel\",\"ProductId\":\"P09\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/mouse2.jpg\",\"ProductName\":\"Wired mouse\",\"Ratings\":3,\"WaitUntil\":1458000000000,\"__PowerAppsId__\":\"6fwMuwH8M88\"},{\"Available\":2,\"CategoryId\":\"C3\",\"Color\":\"White\",\"Comments\":2,\"CountValue\":0,\"ImageId\":135453620,\"Model No\":\"PY5-00018\",\"Price\":100,\"ProductDescription1\":\"Accessories: USB adapter, batteries included\",\"ProductDescription2\":\"Full-size wireless keyboard with numeric keypad \",\"ProductId\":\"P12\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/keyboard1.jpg\",\"ProductName\":\"Wireless keyboard\",\"Ratings\":1,\"WaitUntil\":1455667200000,\"__PowerAppsId__\":\"4vXyJR50GwY\"},{\"Available\":2,\"CategoryId\":\"C3\",\"Color\":\"Black\",\"Comments\":2,\"CountValue\":0,\"ImageId\":61236001,\"Model No\":\"B2M-00009\",\"Price\":400,\"ProductDescription1\":\"Accessories: none included\",\"ProductDescription2\":\"Compact wired keyboard with USB cable, no numeric keypad\",\"ProductId\":\"P13\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/keyboard2.jpg\",\"ProductName\":\"Wired keyboard\",\"Ratings\":2,\"WaitUntil\":1458864000000,\"__PowerAppsId__\":\"5RfKiolaUQc\"},{\"Available\":2,\"CategoryId\":\"C4\",\"Color\":\"White\",\"Comments\":5,\"CountValue\":0,\"ImageId\":99400217,\"Model No\":\"PY9-00018\",\"Price\":350,\"ProductDescription1\":\"Accessories: power cable, monitor adapter\",\"ProductDescription2\":\"32-inch widescreen LED monitor with stand, 1080p television tuner \",\"ProductId\":\"P15\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/keyboard1.jpg\",\"ProductName\":\"LED Monitor\",\"Ratings\":3,\"WaitUntil\":1452124800000,\"__PowerAppsId__\":\"fioPhN_3As0\"},{\"Available\":2,\"CategoryId\":\"C4\",\"Color\":\"Black\",\"Comments\":7,\"CountValue\":0,\"ImageId\":104951552,\"Model No\":\"PY5-00012\",\"Price\":100,\"ProductDescription1\":\"Accessories: power cable, monitor adapter\",\"ProductDescription2\":\"23-inch widescreen LCD monitor with attatched stand\",\"ProductId\":\"P17\",\"ProductImage[image]\":\"https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/assetcheckout/keyboard2.jpg\",\"ProductName\":\"LCD Monitor\",\"Ratings\":2,\"WaitUntil\":1458950400000,\"__PowerAppsId__\":\"CLBllbnOmcg\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Products",
+    "OrderedColumnNames": [
+      "ProductId",
+      "CategoryId",
+      "ProductName",
+      "Model No",
+      "Available",
+      "Color",
+      "ProductImage[image]",
+      "ProductDescription1",
+      "ProductDescription2",
+      "WaitUntil",
+      "Ratings",
+      "CountValue",
+      "ImageId",
+      "Price",
+      "Comments",
+      "__PowerAppsId__"
+    ],
+    "OriginalName": "Products",
+    "OriginalSchema": "*[Available:n, CategoryId:s, Color:s, Comments:n, CountValue:n, ImageId:n, 'Model No':s, Price:n, ProductDescription1:s, ProductDescription2:s, ProductId:s, 'ProductImage[image]':i, ProductName:s, Ratings:n, WaitUntil:d, __PowerAppsId__:s]",
+    "Schema": "*[Available:n, CategoryId:s, Color:s, Comments:n, CountValue:n, ImageId:n, 'Model No':s, Price:n, ProductDescription1:s, ProductDescription2:s, ProductId:s, 'ProductImage[image]':i, ProductName:s, Ratings:n, WaitUntil:d, __PowerAppsId__:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
