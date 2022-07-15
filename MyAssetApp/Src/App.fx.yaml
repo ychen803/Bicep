@@ -1,7 +1,0 @@
-App As appinfo:
-    BackEnabled: =false
-    OnStart: |-
-        =ClearCollect(ProductsCol, Products);
-        ClearCollect(AssetsCol, Assets);
-        ClearCollect(CategoriesCol, Categories)
-
